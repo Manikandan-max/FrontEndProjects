@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VibeWire</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="../assets/images/logo.png" class="logo" alt="" />
+        <ul>
+          <li><img src="../assets/images/notification.png" alt="" /></li>
+          <li><img src="../assets/images/inbox.png" alt="" /></li>
+          <li><img src="../assets/images/video.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="../assets/images/search.png" alt="" />
+          <input type="text" placeholder="Search" name="" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="../assets/images/profile-pic.png" alt="" />
+        </div>
+      </div>
+
+      <!-- dropdown setting menu------------------------------------ -->
+      <div class="settings-menu">
+
+
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="../assets/images/profile-pic.png" alt="" />
+            <div>
+              <p>John Kennedy</p>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile">
+            <img src="../assets/images/feedback.png" alt="" />
+            <div>
+              <p>Give FeedBack</p>
+              <a href="#">Help us to improve the new Design</a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="setting-links">
+            <img src="../assets/images/setting.png" alt="" class="settings-icon">
+            <a href="#">Settings & Privacy <img src="../assets/images/arrow.png" width="10px" alt=""> </a>
+          </div>
+
+          <div class="setting-links">
+            <img src="../assets/images/help.png" alt="" class="settings-icon">
+            <a href="#">Help & Support <img src="../assets/images/arrow.png" width="10px" alt=""> </a>
+          </div>
+          <div class="setting-links">
+            <img src="../assets/images/display.png" alt="" class="settings-icon">
+            <a href="#">Display & Accessibility <img src="../assets/images/arrow.png" width="10px" alt=""> </a>
+          </div>
+
+          <div class="setting-links">
+            <img src="../assets/images/logout.png" alt="" class="settings-icon">
+            <a href="#">Logout <img src="../assets/images/arrow.png" width="10px" alt=""> </a>
+          </div>
+
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- left sidebar------------------------------------------------ -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"
+            ><img src="../assets/images/news.png" alt="" />Latest News</a
+          >
+          <a href="#"
+            ><img src="../assets/images/friends.png" alt="" />Friends</a
+          >
+          <a href="#"><img src="../assets/images/group.png" alt="" />Groups</a>
+          <a href="#"
+            ><img src="../assets/images/marketplace.png" alt="" />Marketplace</a
+          >
+          <a href="#"><img src="../assets/images/watch.png" alt="" />Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Shortcuts</p>
+          <a href="#"
+            ><img src="../assets/images/shortcut-1.png" alt="" />Web
+            Developers</a
+          >
+          <a href="#"
+            ><img src="../assets/images/shortcut-2.png" alt="" />Web Design
+            Course</a
+          >
+          <a href="#"
+            ><img src="../assets/images/shortcut-3.png" alt="" />Full Stack
+            Development</a
+          >
+          <a href="#"
+            ><img src="../assets/images/shortcut-4.png" alt="" />Website
+            Experts</a
+          >
+        </div>
+      </div>
+      <!-- main content--------------------------------------------------------- -->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="../assets/images/upload.png" alt="" />
+            <p>Post Story</p>
+          </div>
+          <div class="story story2">
+            <img src="../assets/images/member-1.png" alt="" />
+            <p>Alison</p>
+          </div>
+          <div class="story story3">
+            <img src="../assets/images/member-2.png" alt="" />
+            <p>Jackson</p>
+          </div>
+          <div class="story story4">
+            <img src="../assets/images/member-3.png" alt="" />
+            <p>Alina</p>
+          </div>
+          <div class="story story5">
+            <img src="../assets/images/member-4.png" alt="" />
+            <p>Leo</p>
+          </div>
+        </div>
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="../assets/images/profile-pic.png" alt="" />
+            <div>
+              <p>John Kennedy</p>
+              <small>Public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="What's on your mind?,John!"
+            ></textarea
+            ><br />
+            <div class="add-post-links">
+              <a href=""
+                ><img src="../assets/images/live-video.png" alt="" />Live
+                Video</a
+              >
+              <a href=""
+                ><img src="../assets/images/photo.png" alt="" />Photo Video</a
+              >
+              <a href=""
+                ><img
+                  src="../assets/images/feeling.png"
+                  alt=""
+                />Feeling/Activity</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="../assets/images/profile-pic.png" alt="" />
+              <div>
+                <p>John Kennedy</p>
+                <span>Augest 28 2023,10:40 am</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem, ipsum dolor sit amet <span>@Web Developer</span> consectetur
+            adipisicing elit. Assumenda, sapiente.
+            <a href="#">#Web Devlopement</a> <a href="#">#Youtube</a>
+          </p>
+          <img src="../assets/images/feed-image-1.png" class="post-img" />
+          <div class="post-row">
+            <!-- Like -->
+            <div class="activity-icons">
+              <div><img src="../assets/images/like-blue.png" alt="" />1200</div>
+              <div><img src="../assets/images/comments.png" alt="" />54</div>
+              <div><img src="../assets/images/share.png" alt="" />12</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="../assets/images/profile-pic.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="../assets/images/member-9.png" alt="" />
+              <div>
+                <p>Alan Walter</p>
+                <span>Augest 28 2023,06:40 am</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem, ipsum dolor sit amet
+            <span>@CAMPINGWITHFRIENDS</span> consectetur adipisicing elit.
+            Assumenda, sapiente. <a href="#">#Camping</a>
+            <a href="#">#FriendsForever</a>
+          </p>
+          <img src="../assets/images/feed-image-2.png" class="post-img" />
+          <div class="post-row">
+            <!-- Like -->
+            <div class="activity-icons">
+              <div><img src="../assets/images/like.png" alt="" />200</div>
+              <div><img src="../assets/images/comments.png" alt="" />44</div>
+              <div><img src="../assets/images/share.png" alt="" />23</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="../assets/images/member-9.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="../assets/images/member-8.png" alt="" />
+              <div>
+                <p>Alita</p>
+                <span>Augest 28 2023,06:40 am</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem, ipsum dolor sit amet
+            <span>@OutingWithFriends</span> consectetur adipisicing elit.
+            Assumenda, sapiente. <a href="#">#Nature</a>
+            <a href="#">#FriendsForever</a>
+          </p>
+          <img src="../assets/images/feed-image-3.png" class="post-img" />
+          <div class="post-row">
+            <!-- Like -->
+            <div class="activity-icons">
+              <div><img src="../assets/images/like-blue.png" alt="" />250</div>
+              <div><img src="../assets/images/comments.png" alt="" />65</div>
+              <div><img src="../assets/images/share.png" alt="" />54</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="../assets/images/member-8.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="../assets/images/member-7.png" alt="" />
+              <div>
+                <p>Adam Smith</p>
+                <span>Augest 27 2023,06:50 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem, ipsum dolor sit amet <span>@Learning</span> consectetur
+            adipisicing elit. Assumenda, sapiente. <a href="#">#Web</a>
+            <a href="#">#WorkLife</a>
+          </p>
+          <img src="../assets/images/feed-image-4.png" class="post-img" />
+          <div class="post-row">
+            <!-- Like -->
+            <div class="activity-icons">
+              <div><img src="../assets/images/like-blue.png" alt="" />250</div>
+              <div><img src="../assets/images/comments.png" alt="" />65</div>
+              <div><img src="../assets/images/share.png" alt="" />54</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="../assets/images/member-7.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="../assets/images/member-6.png" alt="" />
+              <div>
+                <p>Alison</p>
+                <span>Augest 24 2023,08:40 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            Lorem, ipsum dolor sit amet <span>@GroupDisussion</span> consectetur
+            adipisicing elit. Assumenda, sapiente. <a href="#">#CEO</a>
+            <a href="#">#WorkForLife</a>
+          </p>
+          <img src="../assets/images/feed-image-5.png" class="post-img" />
+          <div class="post-row">
+            <!-- Like -->
+            <div class="activity-icons">
+              <div><img src="../assets/images/like-blue.png" alt="" />250</div>
+              <div><img src="../assets/images/comments.png" alt="" />65</div>
+              <div><img src="../assets/images/share.png" alt="" />54</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="../assets/images/member-8.png" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="load-more-button">Load More</button>
+      </div>
+      <!-- right sidebar------------------------------------------------------------------- -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>20</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobile Marketing</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="sidebar-title">
+          <h4>Advertisment</h4>
+          <a href="#">Close</a>
+        </div>
+        <img
+          src="../assets/images/advertisement.png"
+          class="sidebar-ads"
+          alt=""
+        />
+        <div class="sidebar-title">
+          <h4>Conversations</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="../assets/images/member-1.png" alt="" />
+          </div>
+          <p>Alison Mina</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="../assets/images/member-2.png" alt="" />
+          </div>
+          <p>Jackson Alina</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="../assets/images/member-3.png" alt="" />
+          </div>
+          <p>Linda</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="../assets/images/member-4.png" alt="" />
+          </div>
+          <p>Leo Marsh</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright &copy; 2023 - Manikandan V</p>
+    </div>
+    <script src="../js/script.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/5845023cb1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
